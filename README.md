@@ -41,3 +41,23 @@ Zusätzlich wurden axiale und tangentiale Geschwindigkeitsprofile berechnet (Umr
 - Sinnvolle Erweiterung: dispergierte Zweiphasenmodellierung (z. B. DPM) zur Berechnung des Abscheidegrads. Sie wurde nicht durchgeführt.
 
 Portfolio mit Abbildungen: <https://pouria-kamali.de/projekt-zyklon.php>
+
+## Abbildungen
+
+### Geometrie
+
+Zyklon in Ansys SpaceClaim, Proportionen nach Hoekstra (2000).
+
+![Zyklongeometrie in SpaceClaim](images/zyklon_geometrie.png)
+
+### Geschwindigkeitsprofile
+
+Axiales und tangentiales Geschwindigkeitsprofil (normiert mit der Eintrittsgeschwindigkeit) über dem normierten Radius, Simulation im Vergleich zu Referenz- und Experimentdaten aus der Literatur. Die Diagramme stammen aus MATLAB, die Legenden entsprechen dem ursprünglichen Plot.
+
+![Axiales Geschwindigkeitsprofil](images/zyklon_axialprofil.png)
+
+![Tangentiales Geschwindigkeitsprofil](images/zyklon_tangentialprofil.png)
+
+## Repository-Inhalt
+
+Dieses Repository dokumentiert Methodik und Ergebnisse. Case-Dateien, Rechendaten, der Praxisbericht sowie unternehmensinterne Arbeitsabläufe und Software-Einstellungen sind nicht enthalten.
