@@ -29,9 +29,9 @@ Druckverlust bei 20 m/s:
 | k-ε (Standard) | 1297,52 |
 | k-ω (SST) | 1479,72 |
 
-Zusätzlich wurden axiale und tangentiale Geschwindigkeitsprofile berechnet (Umrechnung von kartesischen in Zylinderkoordinaten) und mit Literaturprofilen verglichen.
+Zusätzlich wurden axiale und tangentiale Geschwindigkeitsprofile berechnet (Umrechnung von kartesischen in Zylinderkoordinaten) und mit den Experimentdaten und den Referenzläufen des Validierungsfalls verglichen.
 
-- Im visuellen Vergleich mit den experimentellen Daten folgt Standard-k-ε den Profilen insgesamt am engsten. RNG weicht im Spitzenbereich des axialen Profils am stärksten nach oben ab, k-ω SST liegt dazwischen.
+- Im axialen Profil liegen die drei eigenen Simulationen nahe beieinander (Maximum auf der Achse etwa 0,58 bis 0,66 U/U_in, Standard-k-ε am niedrigsten). Im Diagramm sind zusätzlich Experimentdaten sowie Standard-k-ε und RNG-k-ε des Validierungsfalls als „Standard reference“ und „RNGref“ eingezeichnet. Die RNG-Referenz zeigt ein deutlich höheres Maximum von etwa 1,4 U/U_in.
 - Keines der Modelle bildet den ausgeprägten Geschwindigkeitseinbruch nahe der Achse (x/R ≈ 0) im axialen Profil ab. Alle sagen ein einzelnes Maximum voraus. Das entspricht der bekannten Grenze isotroper Wirbelviskositätsmodelle bei stark verdrallter Strömung.
 
 ## Erkenntnisse
@@ -52,7 +52,7 @@ Zyklon in Ansys SpaceClaim, Proportionen nach Hoekstra (2000).
 
 ### Geschwindigkeitsprofile
 
-Axiales und tangentiales Geschwindigkeitsprofil (normiert mit der Eintrittsgeschwindigkeit) über dem normierten Radius, Simulation im Vergleich zu Referenz- und Experimentdaten aus der Literatur. Die Diagramme stammen aus MATLAB, die Legenden entsprechen dem ursprünglichen Plot.
+Axiales und tangentiales Geschwindigkeitsprofil (normiert mit der Eintrittsgeschwindigkeit) über dem normierten Radius, eigene Simulation (Standard-k-ε, RNG-k-ε, k-ω SST) im Vergleich zu Experiment und Referenzläufen des Validierungsfalls. Die Diagramme stammen aus MATLAB, die Legenden entsprechen dem ursprünglichen Plot.
 
 ![Axiales Geschwindigkeitsprofil](images/zyklon_axialprofil.png)
 
